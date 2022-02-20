@@ -86,7 +86,7 @@ export default function Header({ onLight }) {
                 "text-white hover:text-teal-500 text-lg px-6 py-3 font-medium",
               ].join(" ")}
             >
-              Feature
+              Fitur
             </a>
           </Link>
         </li>
@@ -98,7 +98,7 @@ export default function Header({ onLight }) {
                 "text-white hover:text-teal-500 text-lg px-6 py-3 font-medium",
               ].join(" ")}
             >
-              Story
+              Cerita
             </a>
           </Link>
         </li>
@@ -108,17 +108,17 @@ export default function Header({ onLight }) {
               target="_blank"
               rel="noopener noereferrer"
               href={linkCTA}
-              className="inline-flex items-center px-6 py-3 ml-6 text-lg font-medium text-white transition-all duration-200 hover:bg-indigo-800 hover:text-teal-500"
+              className="hover:bg-indigo-800 transition-all duration-200 text-white hover:text-teal-500 text-lg px-6 py-3 font-medium ml-6 inline-flex items-center"
             >
-              <span className="mr-3 overflow-hidden border-2 border-orange-500 rounded-full">
+              <span className="rounded-full overflow-hidden mr-3 border-2 border-orange-500">
                 {User?.thumbnail ? (
                   <img
                     src={User?.thumbnail}
                     alt={User?.name ?? "Username"}
-                    className="inline-block object-cover w-8 h-8"
+                    className="object-cover w-8 h-8 inline-block"
                   />
                 ) : (
-                  <DefaultAvatar className="inline-block w-8 h-8 fill-indigo-500"></DefaultAvatar>
+                  <DefaultAvatar className="fill-indigo-500 w-8 h-8 inline-block"></DefaultAvatar>
                 )}
               </span>
               Hi, {User.name}
@@ -128,7 +128,7 @@ export default function Header({ onLight }) {
               target="_blank"
               rel="noopener noereferrer"
               href={linkCTA}
-              className="px-6 py-3 ml-6 text-lg font-medium text-white transition-all duration-200 bg-indigo-700 hover:bg-indigo-800 hover:text-teal-500"
+              className="bg-indigo-700 hover:bg-indigo-800 transition-all duration-200 text-white hover:text-teal-500 text-lg px-6 py-3 font-medium ml-6"
             >
               {textCTA}
             </a>

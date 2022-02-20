@@ -12,13 +12,13 @@ export default function Hero() {
     <div className="flex justify-between items-center">
       <div className="w-full md:w-1/2 mt-8 md:mt-0">
         <h1 className="text-5xl text-white mb-5 font-semibold">
-          <span className="text-teal-400">The New</span> Way to
-          <br className="hidden md:block" /> Achieve Good{" "}
-          <span className="text-teal-400">Skills</span>
+          <span className="text-teal-400">Belajar Bisnis</span> Properti
+          <br className="hidden md:block" /> Online Untuk{" "}
+          <span className="text-teal-400">Milenial</span>
         </h1>
         <p className="text-white font-light text-lg mb-8">
-          We provide tons of pathskill that you{" "}
-          <br className="hidden md:block" /> can choose and focus on
+        Jcpro cocok untuk anda yang ingin menjadi{" "}
+          <br className="hidden md:block" /> marketer, investor hingga developer properti!
         </p>
 
         <form onSubmit={submit} className="flex">
@@ -53,7 +53,7 @@ export default function Hero() {
             <p className="text-gray-900 mb-2">
               Metode belajar yang santai seperti nonton drakor di Netflix
             </p>
-            <span className="text-gray-600">Alyssa, Apps Developer</span>
+            <span className="text-gray-600">Jcpro Indonesia</span>
           </div>
         </div>
       </div>

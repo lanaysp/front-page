@@ -13,32 +13,32 @@ export default function index() {
   const data = [
     {
       imageName: <BusinessDevelopment />,
-      name: "Business Development",
+      name: "Fundamental Bisnis Properti",
       total: 12493,
     },
     {
       imageName: <ContentWriter />,
-      name: "Content Writer",
+      name: "Facebook Marketing Properti",
       total: 839,
     },
     {
       imageName: <ProductAdvertisement />,
-      name: "Product Advertisement",
+      name: "Instagram Marketing Properti",
       total: 478,
     },
     {
       imageName: <CustomerRelationship />,
-      name: "Customer Relationship",
+      name: "Marketplace Properti",
       total: 553,
     },
     {
       imageName: <GameDevelopment />,
-      name: "Game Development",
+      name: "Membangun List Cabuy",
       total: 7309,
     },
     {
       imageName: <TravelGuidance />,
-      name: "Travel Guidance",
+      name: "Membangun Web Properti",
       total: 73,
     },
   ];
@@ -47,9 +47,9 @@ export default function index() {
     <>
       <div className="flex justify-between items-center">
         <div className="w-auto">
-          <h2 className="text-lg text-gray-600">Category</h2>
+          <h2 className="text-lg text-gray-600">Kategori</h2>
           <h3 className="text-xl text-gray-900">
-            Explore & <span className="text-teal-400">Learn</span>
+            Kursus & <span className="text-teal-400">Populer</span>
           </h3>
         </div>
       </div>

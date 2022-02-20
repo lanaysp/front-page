@@ -17,7 +17,7 @@ function Home({ data }) {
   return (
     <>
       <Head>
-        <title>ETNIPRO INDONESIA</title>
+        <title>JCPRO INDONESIA</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
